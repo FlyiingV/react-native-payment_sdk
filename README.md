@@ -5,7 +5,7 @@ Simple payment SDK
 ## Installation
 
 ```sh
-npm install https://github.com/FlyiingV/react-native-payment-sdk
+npm install https://github.com/FlyiingV/react-native-payment_sdk
 ```
 
 ## Usage
