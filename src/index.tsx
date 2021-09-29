@@ -14,7 +14,7 @@ class PaymentWebView extends React.Component<any, any> {
           {...restProps}
           source={{ uri: uri }}
           onShouldStartLoadWithRequest={ (request) => {
-            return (request.url == uri)
+            return request.url.includes(uri)
           }}
         />
       );
